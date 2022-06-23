@@ -1,0 +1,164 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2279902600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the provided webpage",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.user_is_on_the_provided_webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T12:58:44.048Z",
+        "line": 8,
+        "name": "User should be able to change the background color by clicking the buttons",
+        "description": "",
+        "id": "background-color-button-functionality-validation;user-should-be-able-to-change-the-background-color-by-clicking-the-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205450800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks set skyblue background button",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.the_user_clicks_set_skyblue_background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 418880300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the background color should change to blue",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.the_background_color_should_change_to_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundColorFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario1:"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1820133000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the provided webpage",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.user_is_on_the_provided_webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-23T12:58:47.078Z",
+        "line": 14,
+        "name": "User should be able to change the background color by clicking the buttons",
+        "description": "",
+        "id": "background-color-button-functionality-validation;user-should-be-able-to-change-the-background-color-by-clicking-the-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124680900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks set white background button",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.the_user_clicks_set_white_background_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 337098400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the background color should change to white",
+            "match": {
+              "location": "steps.BackgroundColorStepDefinition.the_background_color_should_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BackgroundColorFeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Scenario2:"
+          }
+        ]
+      }
+    ],
+    "name": "Background Color Button Functionality Validation",
+    "description": "",
+    "id": "background-color-button-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/BackgroundColor.feature",
+    "tags": [
+      {
+        "name": "@BackgroundColorFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 25
+        }
+      }
+    ]
+  }
+]
